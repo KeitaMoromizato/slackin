@@ -52,6 +52,7 @@
   "scripts": {
     "test": "mocha && eslint lib/**",
     "postinstall": "gulp",
-    "start": "node ./bin/slackin"
+    "start": "node ./bin/slackin",
+    "build": "babel lib -d node"
   }
 }
